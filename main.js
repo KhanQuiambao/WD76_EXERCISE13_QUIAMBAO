@@ -13,8 +13,6 @@ resultTypeValue = resultType.value;
 
 function myResult(){
 
-//formula
-
     inputTypeValue = inputType.value;
     resultTypeValue = resultType.value;
 
