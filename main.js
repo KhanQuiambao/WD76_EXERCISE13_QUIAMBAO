@@ -24,7 +24,7 @@ function myResult(){
     }
     //meter to centimeter
     else if(inputTypeValue === "meter" && resultTypeValue==="Centimeter"){
-     result.value = Number(input.value) * 100;
+    result.value = Number(input.value) * 100;
     }
     //meter to meter
     else if(inputTypeValue === "meter" && resultTypeValue==="meter"){
@@ -34,12 +34,12 @@ function myResult(){
     
     //kilometer to meter
     if(inputTypeValue === "kilometer" && resultTypeValue==="meter"){
-        result.value = Number(input.value) * 1000;
-     }
+    result.value = Number(input.value) * 1000;
+    }
     //kilometer to Centimeter
-     else if(inputTypeValue === "kilometer" && resultTypeValue==="Centimeter"){
-     result.value = Number(input.value) * 100000;
-     }
+    else if(inputTypeValue === "kilometer" && resultTypeValue==="Centimeter"){
+    result.value = Number(input.value) * 100000;
+    }
      //kilometer to kilometer
     else if(inputTypeValue === "meter" && resultTypeValue==="meter"){
     result.value = input.value
@@ -47,13 +47,13 @@ function myResult(){
 
 
      //Centimeter to kilometer
-     if(inputTypeValue === "Centimeter" && resultTypeValue==="kilometer"){
-        result.value = Number(input.value) * 0.00001;
-     }
+    if(inputTypeValue === "Centimeter" && resultTypeValue==="kilometer"){
+    result.value = Number(input.value) * 0.00001;
+    }
     //Centimeter to meter
-     else if(inputTypeValue === "Centimeter" && resultTypeValue==="meter"){
-     result.value = Number(input.value) * 0.01;
-     }
+    else if(inputTypeValue === "Centimeter" && resultTypeValue==="meter"){
+    result.value = Number(input.value) * 0.01;
+    }
      //Centimeter to Centimeter
     else if(inputTypeValue === "Centimeter" && resultTypeValue==="Centimeter"){
     result.value = input.value
