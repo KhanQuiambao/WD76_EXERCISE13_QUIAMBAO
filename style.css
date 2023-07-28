@@ -31,13 +31,13 @@ input{
     margin-left: 9px;
 }
 #inputType{
-    width: 165px;
+    width: 170px;
     margin-left: 9px;
     color: blacks;
 }
 #resultType{
-    width: 165px;
-    margin-left: 13px;
+    width: 170px;
+    margin-left: 12.5px;
     color: black;
 }
 .after{
